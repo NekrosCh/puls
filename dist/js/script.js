@@ -23,13 +23,14 @@ $(document).ready(function(){
         nextArrow: '<button type="button" class="slick-next"><img src="../icon/arrow_right.png"></button>',
         responsive: [
             {
-                breakpoint: 768,
+                breakpoint: 769,
                 settings: {
                 dots: true,
-                arrows: false
+                arrows: false,
             }
             }],       
     });
+    $('.slick-dots button').empty();
     // const slider = tns({
     //     container: '.carousel__inner',
     //     items: 1,

@@ -27,4 +27,31 @@
             margin: 0 auto;
         }
     }
+    .slick-dots {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        justify-content: center;
+        padding: 0;
+        li {
+            width: 20px;
+            height: 20px;
+            background-color: #ffffff;
+            margin: auto 15px;
+            border-radius: 100%;
+            button {
+                width: 100%;
+                height: 100%;
+                border-radius: 100%;
+                background-color: $main-color;
+                border:none;
+            }
+        }
+        .slick-active {
+            button {
+                border: 3px solid black;
+            }
+            
+        }
+    }
 }
